@@ -41,6 +41,7 @@
   <valuemap type="QVariantMap" >
    <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString" >Debug</value>
    <value key="QtVersionId" type="int" >0</value>
+   <value key="addQDumper" type="" ></value>
   </valuemap>
  </data>
  <data>
@@ -48,6 +49,7 @@
   <valuemap type="QVariantMap" >
    <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString" >Release</value>
    <value key="QtVersionId" type="int" >0</value>
+   <value key="addQDumper" type="" ></value>
   </valuemap>
  </data>
  <data>
@@ -94,7 +96,6 @@
     <value type="QString" >KDE_SESSION_VERSION=4</value>
     <value type="QString" >LADSPA_PATH=/usr/lib/ladspa</value>
     <value type="QString" >LANG=fr_FR.UTF-8</value>
-    <value type="QString" >LANGUAGE=</value>
     <value type="QString" >LD_LIBRARY_PATH=/home/boulabiar/qtcreator-1.1.0/lib/qtcreator:/usr/lib/mpi/gcc/openmpi/lib</value>
     <value type="QString" >LESS=-M -I</value>
     <value type="QString" >LESSCLOSE=lessclose.sh %s %s</value>
@@ -204,7 +205,6 @@
     <value type="QString" >KDE_SESSION_VERSION=4</value>
     <value type="QString" >LADSPA_PATH=/usr/lib/ladspa</value>
     <value type="QString" >LANG=fr_FR.UTF-8</value>
-    <value type="QString" >LANGUAGE=</value>
     <value type="QString" >LD_LIBRARY_PATH=/home/boulabiar/qtcreator-1.1.0/lib/qtcreator:/usr/lib/mpi/gcc/openmpi/lib</value>
     <value type="QString" >LESS=-M -I</value>
     <value type="QString" >LESSCLOSE=lessclose.sh %s %s</value>

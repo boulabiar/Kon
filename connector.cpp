@@ -14,8 +14,9 @@ Connector::Connector(SubDevice *sd1, SubDevice *sd2, QGraphicsScene *scene)
     p.moveTo(0, 0);
     p.cubicTo(99, 0,  50, 50,  99, 99);
     p.cubicTo(0, 99,  50, 50,  0, 0);
-    QPainter painter(scene);
-    painter.drawPath(path);
+    //QPainter painter(scene);
+    //painter.drawPath(path);
+
 
 }
 

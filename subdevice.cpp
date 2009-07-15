@@ -2,8 +2,8 @@
 
 SubDevice::SubDevice(QSvgRenderer *renderer)
 {
-    //setFlag( QGraphicsItem::ItemIsMovable );
-    setFlag( QGraphicsItem::ItemIsSelectable, true );
+    setFlag( QGraphicsItem::ItemIsMovable );
+    //setFlag( QGraphicsItem::ItemIsSelectable, true );
     setElementId(QLatin1String("devSubComp"));
     setSharedRenderer(renderer);
 
