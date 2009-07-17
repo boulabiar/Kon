@@ -4,6 +4,7 @@
 #include <QWidget>
 #include <QGraphicsSvgItem>
 #include <QGraphicsLineItem>
+#include <QGraphicsPathItem>
 #include <QGraphicsScene>
 #include <QPainterPath>
 #include <QPainter>

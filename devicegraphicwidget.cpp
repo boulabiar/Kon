@@ -29,11 +29,11 @@ DeviceGraphicWidget::DeviceGraphicWidget()
 
     //Node* node = new Node(renderer);
     SubDevice *subdevice1 = new SubDevice(renderer);
-    subdevice1->setPos(-100.0, -100.0);
+    subdevice1->setPos(-150.0, -10.0);
     scene->addItem(subdevice1);
 
     SubDevice *subdevice2 = new SubDevice(renderer);
-    subdevice2->setPos(10.0, 10.0);
+    subdevice2->setPos(50.0, 50.0);
     scene->addItem(subdevice2);
 
     Connector *conn1 = new Connector(subdevice1, subdevice2, scene);
