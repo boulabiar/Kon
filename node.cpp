@@ -10,4 +10,3 @@ Node::Node(QSvgRenderer* renderer)
 Node::~Node()
 {
 }
-

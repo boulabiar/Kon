@@ -10,13 +10,26 @@
 #include <QPainter>
 #include "subdevice.h"
 
-class Connector : public QGraphicsLineItem
+class Connector : public QGraphicsPathItem
 {
 public:
     Connector();
     Connector(SubDevice*, SubDevice*, QGraphicsScene*);
+    SubDevice *getInnerDevice() const
+        { return innerDevice; }
+    SubDevice *getOuterDevice() const
+        { return outerDevice; }
+
 public slots:
     void updatePosition();
+
+private:
+    QPainterPath path;
+    QPoint p1,p2;
+    SubDevice *innerDevice;
+    SubDevice *outerDevice;
+    //QGraphicsPathItem *pathItem;
+
 };
 
 #endif // CONNECTOR_H

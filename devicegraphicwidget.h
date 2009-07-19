@@ -7,6 +7,9 @@
 #include <QSvgRenderer>
 #include <QGraphicsSvgItem>
 #include <QPen>
+#include "subdevice.h"
+#include "connector.h"
+
 
 class DeviceGraphicWidget : public QGraphicsView
 {
@@ -15,6 +18,12 @@ class DeviceGraphicWidget : public QGraphicsView
 public:
     DeviceGraphicWidget();
     QSvgRenderer *renderer;
+    Connector *conn;
+
+protected:
+    //QVariant itemChange(GraphicsItemChange change, const QVariant &value);
+    void mouseReleaseEvent ( QMouseEvent * e );
+
 };
 
 #endif // DEVICEGRAPHICWIDGET_H

@@ -12,7 +12,8 @@ public:
     void mousePressEvent ( QGraphicsSceneMouseEvent * event );
     Node *nodeIn,*nodeOut;
     ~SubDevice();
-private:
+protected:
+//    QVariant itemChange(GraphicsItemChange change, const QVariant &value);
 
 };
 

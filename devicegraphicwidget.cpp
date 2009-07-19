@@ -1,6 +1,4 @@
 #include "devicegraphicwidget.h"
-#include "subdevice.h"
-#include "connector.h"
 
 DeviceGraphicWidget::DeviceGraphicWidget()
 {
@@ -36,13 +34,20 @@ DeviceGraphicWidget::DeviceGraphicWidget()
     subdevice2->setPos(50.0, 50.0);
     scene->addItem(subdevice2);
 
-    Connector *conn1 = new Connector(subdevice1, subdevice2, scene);
+    conn = new Connector(subdevice1, subdevice2, scene);
 
     //pen.setWidth(16);
     //conn1->setPen(pen);
-    conn1->setZValue(1);
+    conn->setZValue(1);
 
-    scene->addItem(conn1);
+    scene->addItem(conn);
     //qDebug("render");
 
 }
+
+void DeviceGraphicWidget::mouseReleaseEvent ( QMouseEvent * e ) //itemChange(GraphicsItemChange change, const QVariant &value)
+{
+    //if (change == QGraphicsItem::ItemPositionChange)
+            conn->updatePosition();
+}
+
