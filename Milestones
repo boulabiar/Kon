@@ -1,0 +1,25 @@
+
+This file shows milestones for the project :
+
+Milestone 1:
+  formal representation of the input device
+
+Milestone 2:
+  detect hotplug (from udev)
+  read from one device 
+  control application
+
+Milestone 3:
+  ability to add filters to the input
+  remake the GUI
+
+Milestone 4:
+  generic graphical representation of devices
+  generic filters
+
+Version 0.0.5
+  Working proof-of-concept model
+
+version 0.0.6
+  analyse HID devices
+
